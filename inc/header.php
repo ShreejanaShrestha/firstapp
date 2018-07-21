@@ -27,7 +27,7 @@
 									<div class="login">
 										<ul class="nav navbar-nav">
 										<h4><a href="cms/login.php">Admin Login</a></h4>
-										<h4><a href="cms/user_login.php">User Login</a></h4>
+										<h4><a href="cms/usignup.php">User Login</a></h4>
 									</ul>
 									</div>
 									

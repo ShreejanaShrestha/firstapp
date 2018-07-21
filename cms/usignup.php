@@ -18,7 +18,7 @@
 		<div class="title">
 			<h2> User Login</h2>
 		</div>
-		<form role="form" class="form-horizontal" action="user_login.php" method="post">
+		<form role="form" class="form-horizontal" action="signprocess.php" method="post">
 			
 			<div class="input-group" >
 				<label for="fullname" >Full Name</label>
@@ -32,12 +32,11 @@
 				<label for="password" >Password</label>
 				<input type="password" name="password"  class="form-control" placeholder="Password">
 			</div>
+			
 			<div class="input-group">
-				<label for="confirm_password">Confirm Password</label>
-				<input type="text" name="confirm_password"  class="form-control" placeholder="Re-enter Password">
-			</div>
-			<div class="input-group">
-				<button type="submit" name="ulogin" class="btn btn-default">Login</button>
+				<button type="submit" name="ulogin" class="btn btn-default" onclick="">Sign Up</button>
+				<button type="cancel" name="cancel" class="btn btn-default" onclick="index.php">Cancel</button>
+
 			</div>
 		</form>
 	</div>
