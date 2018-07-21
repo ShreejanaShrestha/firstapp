@@ -1,4 +1,6 @@
-
+<?php 
+	include 'ulogprocess.php'
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,6 +11,7 @@
 
 	<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="../assets/js/jquery.js"></script>
+
 </head>
 <body>
 	<?php 
@@ -22,7 +25,7 @@
 			
 			<div class="input-group" >
 				<label for="fullname" >Full Name</label>
-				<input type="text" name="fullname"  class="form-control" placeholder="Full Name" > 
+				<input type="text" id="fullname" name="fullname"  class="form-control" placeholder="Full Name" > 
 			</div>
 			<div class="input-group ">
 				<label for="email" >Email Address</label>
@@ -43,3 +46,4 @@
 	</div>
 </body>
 </html>
+
