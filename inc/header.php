@@ -25,9 +25,9 @@
 								if ($current_page == 'index') {
 									?>
 									<div class="login">
-										<ul class="nav navbar-nav">
-										<h4><a href="cms/login.php">Admin Login</a></h4>
-										<h4><a href="cms/usignup.php">User Login</a></h4>
+										<ul class="nav nav-pills nav-right">
+										<li><a href="cms/login.php">Admin Login</a></li>
+										<li><a href="cms/usignup.php">User Login</a></li>
 									</ul>
 									</div>
 									

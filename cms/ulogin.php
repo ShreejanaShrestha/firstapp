@@ -1,16 +1,16 @@
 <?php 
 session_start();
-if (isset($_SESSION['username'])) {
-	@header('location:dashboard.php');
+if (isset($_SESSION['fullname'])) {
+	@header('location:udashboard.php');
 	exit();
 }
 ?>
 
-<?php include 'logprocess.php'; ?>
+<?php include 'ulogprocess.php'; ?>
 <!DOCTYPE html>
 <html>
 <head>
-	<title>login page</title>
+	<title>user login page</title>
 	<link href="../assets/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="../style.css">
 
@@ -19,9 +19,9 @@ if (isset($_SESSION['username'])) {
 	<?php include '../inc/header.php'; ?>
 	<div class="form-container">
 		<div class="title">
-			<h2>Login</h2>
+			<h2>User Login</h2>
 		</div>
-		<form action="login.php" method="post">
+		<form action="ulogin.php" method="post">
 			<!-- display validation error here -->
 			<?php 
 			include '../inc/alert.php';
@@ -29,11 +29,11 @@ if (isset($_SESSION['username'])) {
 			?>
 			<div class="input-group">
 				<label for="username">Username</label>
-				<input type="text" name="username" required value="<?php echo($username); ?>">
+				<input type="text" name="fullname" placeholder="Email or Username" required>
 			</div>
 			<div class="input-group">
 				<label for="password">Password</label>
-				<input type="password" name="password" required>
+				<input type="password" name="password" placeholder="Password" required>
 			</div>
 			<div class="input-group">
 				<button type="submit" name="login" class="btn">Login</button>
