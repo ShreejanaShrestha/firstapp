@@ -1,36 +1,20 @@
 <?php 
     include '../inc/usession.php';
     include '../inc/template_header.php';
-    include '../inc/navigation.php';
- ?>
+    //include '../inc/navigation.php';  
+ ?> 
 
-<div id="page-wrapper">
-    <div class="container-fluid">
-        <!-- Page Heading -->
-        <div class="row">
-            <div class="col-lg-12">
-                <?php 
-                include '../inc/alert.php'; 
-                ?>
-                <h1 class="page-header">
-                    Dashboard
-                    <small>User page</small>
-                </h1>
-                <ol class="breadcrumb">
-                    <li>
-                        <i class="fa fa-dashboard"></i>  <a href="udashboard.php">Dashboard</a>
-                    </li>
-                    <li class="active">
-                        <i class="fa fa-file"></i> User panel
-                    </li>
-                </ol>
-            </div>
-        </div>
-        <!-- /.row -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>user dashboard</title>
+</head>
+<body>
+    <div class="container">
+    <h2 class="success"><?php echo'Welcome !!! Dear User' ?></h2>
     </div>
-    <!-- /.container-fluid -->
-</div>
-<!-- /#page-wrapper -->
+</body>
+</html>
 
 <?php 
     include '../inc/template_footer.php';

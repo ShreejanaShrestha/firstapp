@@ -25,9 +25,9 @@
 								if ($current_page == 'index') {
 									?>
 									<div class="login">
-										<ul class="nav nav-pills nav-right">
+										<ul class="nav nav-pills nav-left">
 										<li><a href="cms/login.php">Admin Login</a></li>
-										<li><a href="cms/usignup.php">User Login</a></li>
+										<li><a href="cms/ulog_sig.php">Sign-Up</a></li>
 									</ul>
 									</div>
 									
@@ -36,6 +36,14 @@
 								}
 
 							 ?>
+							 <ul class="nav nav-pills">
+										<li><a href = "cms/login.php">Admin Login</a></li>
+										<li><a href = "cms/usignup.php">SignUp or Login</a></li>
+										<!--<li><a href = "ulogin.php">Login</a></li> -->
+
+										
+									
+									</ul><br>
 							 <ul class="nav nav-pills">
 										<li class = "active"><a href = "#">Home</a></li>
 										<li><a href = "#">Contact Us</a></li>

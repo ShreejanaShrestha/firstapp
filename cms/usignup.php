@@ -1,7 +1,15 @@
 
 <!DOCTYPE html>
 <html>
- 
+ <head>
+	<title>User Sign Up</title>
+	<link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../style.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+
+	<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../assets/js/jquery.js"></script>
+</head>
 <body>
 	<?php 
 		include '../inc/header.php'; 
@@ -9,7 +17,7 @@
 	?>
 	<div class="form-container">
 		<div class="title">
-			<h2> User Sign Up</h2>
+			<h2>Sign Up for Free</h2>
 		</div>
 		<form role="form" class="form-horizontal" action="signprocess.php" method="post">
 			
@@ -27,10 +35,11 @@
 			</div>
 			
 			<div class="input-group">
-				<button type="submit" name="ulogin" class="btn btn-default" onclick="">Sign Up</button>
-				<button type="cancel" name="cancel" class="btn btn-default" onclick="../inc/index.php">Cancel</button>
+				<button type="submit" name="signUp" class="btn btn-default" onclick="">Sign Up</button>
+				<button type="cancel" name="cancel" class="btn btn-default" onclick="">Cancel</button>
 
 			</div>
+			<p><a href="ulogin.php">Already have a account?</p>
 		</form>
 	</div>
 </body>

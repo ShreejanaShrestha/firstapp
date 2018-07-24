@@ -11,12 +11,15 @@ if (isset($_SESSION['fullname'])) {
 <html>
 <head>
 	<title>user login page</title>
-	<link href="../assets/css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="../style.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="../style.css">
+  	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
 
+  	<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
+  	<script type="text/javascript" src="../assets/js/jquery.js"></script>
 </head>
 <body>
-	<?php include '../inc/header.php'; ?>
+	<?php include '../inc/header.php';?>
 	<div class="form-container">
 		<div class="title">
 			<h2>User Login</h2>
