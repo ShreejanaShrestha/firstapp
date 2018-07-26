@@ -1,4 +1,6 @@
-
+<?php 
+	include 'ulogprocess.php'
+?>
 <!DOCTYPE html>
 <html>
  <head>
@@ -9,6 +11,7 @@
 
 	<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="../assets/js/jquery.js"></script>
+
 </head>
 <body>
 	<?php 
@@ -23,7 +26,11 @@
 			
 			<div class="input-group" >
 				<label for="fullname" >Full Name</label>
+<<<<<<< HEAD:cms/usignup.php
 				<input type="text" name="fullname"  class="form-control" placeholder="Full Name" required > 
+=======
+				<input type="text" id="fullname" name="fullname"  class="form-control" placeholder="Full Name" > 
+>>>>>>> c564a53344ea8c4a29ccaf5f4e00e2e58a3585ee:cms/user_login.php
 			</div>
 			<div class="input-group ">
 				<label for="email" >Email Address</label>
@@ -44,3 +51,4 @@
 	</div>
 </body>
 </html>
+
